@@ -1,0 +1,140 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff7fa;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+#meuSite{
+    margin-left: 20px;
+}   
+
+#meuSite h3{
+    color: #e91e63;
+
+}
+
+#btnMenus{
+    margin-right: 20px;
+}
+
+.LinkMenu{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #e91e63;
+}
+
+#caixaUm{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd6e7;
+    flex-direction: column;
+}
+
+#caixaUm img{
+    width: 130px;
+}
+
+#caixaUm h1{
+    color: #e91e63;
+    margin: 10px;
+}
+
+#caixaUm h4{
+    color: #6d4c55;
+    margin: 5px;
+}
+
+#btnCaixaUm{
+    padding: 10px 9px;
+    margin-top: 8px;
+    background-color: #e91e63;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+}
+
+#caixaDois{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    flex: 1;
+}
+
+.caixinha{
+    width: 15%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #f3a9c3;
+    border-radius: 12px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.caixinha h3{
+    color: #e91e63;
+}
+
+.caixinha p{
+    text-align: center;
+    color: #6d4c55;
+    padding: 0px 10px;
+}
+
+#rodape{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+#chibi{
+    width: 90px;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    
+}
+#rodape p{
+    color: #e91e63;
+}
+
+.linkMenu:hover{
+    color: #b3004b;
+}
+
+#btnCaixaUm:hover{
+    background-color: #b3004b;
+    cursor: pointer;
+     box-shadow: 0 0 15px F8C8DC;
+}
+
+.caixinha:hover{
+     transform: translateY(-5px);
+    box-shadow: 0 0 20px #ff9fc5;
+}
