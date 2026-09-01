@@ -17,9 +17,6 @@ Este site foi criado com inspiração na Hello Kitty, com o objetivo de praticar
 - [styles.css](https://github.com/mooneryz99/teste01092026/blob/main/styles.css)
 - [Pasta de imagens](https://github.com/mooneryz99/teste01092026/tree/main/img)
 
-## Repositório
-
-- [Acessar o projeto no GitHub](https://github.com/mooneryz99/teste01092026)
 
 ## Autora
 
